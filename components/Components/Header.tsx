@@ -16,9 +16,8 @@ export default function Header() {
                 <img src="/image/automated.png" alt="" width="300px"/>
             </div>
             <div className={`${inter.className} flex items-center gap-5 self-end sm:self-center`}>
-                {/* {pageName === 'home' && <OutlineButton name='Discord' action='/examples' />} */}
-                <FillButton name='Discord' link="/" />
-                <FillButton name='Youtube' link="/" />
+                <FillButton name='Discord' link="https://discord.com/invite/RU5t7ErGEE" />
+                <FillButton name='Youtube' link="https://www.youtube.com/channel/UC6fpw9ACFKDfyqK0aNSAW-Q" />
             </div>
         </div>
     )

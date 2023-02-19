@@ -14,7 +14,7 @@ export default function TradingWays() {
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8'>
                     {TradeWays.map((example) => (
                         <div className='flex justify-center items-center' key={example.id}>
-                            <button className={`relative w-full items-center justify-center p-9 min-h-72 min-w-[270px] overflow-hidden text-xl tracking-tighter text-white bg-gray-800 rounded-lg group`} >
+                            <button className={`relative w-full items-center justify-center p-7 min-h-[270px] min-w-[270px] overflow-hidden text-xl tracking-tighter text-white bg-gray-800 rounded-lg group`} >
                                 <div className={`${kanit.className} latin`}><h4 className={`${styles.descTitleGroup} ${kanit.className} ${styles.descTitle} text-3xl`}>{example.title}</h4></div>
                                 <div className={`text-slate-300`}>{example.desc}</div>
                             </button>

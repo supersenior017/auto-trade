@@ -136,11 +136,12 @@ a {
 .mainBg {
   background-image: url('../public/image/landing/main_bg.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .bgPattern {
-  -webkit-mask-image: linear-gradient(transparent, black);
+  /* -webkit-mask-image: linear-gradient(transparent, black); */
   background-image: url(../public/image/landing/download.svg);
 }
 

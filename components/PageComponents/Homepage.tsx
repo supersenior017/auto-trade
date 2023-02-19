@@ -4,6 +4,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import { FillButton, OutlineButton } from '../ButtonComponents';
 import ChatBox from '../Components/ChatBox';
 import Title from '../Components/Title';
+import Automatic from './Automatic';
 import Examplespage from './Examplespage';
 import TradingWays from './TradingWays';
 
@@ -41,6 +42,7 @@ export default function Homepage() {
                 </div>
             </div>
             <Examplespage />
+            <Automatic />
             <TradingWays />
             <div>
                 <div className='max-w-[700px] m-auto'>
@@ -51,10 +53,10 @@ export default function Homepage() {
                         There is no such thing as risk-free trading. We do not create investment strategies and do not provide investment advice. These Terms will be applied fully and affect to your use of this Website. By using this Website, you agreed to accept all terms and conditions written in here. You must not use this Website if you disagree with any of these Website Standard.
                     </div>
                     <div className='flex items-center gap-5 justify-center'>
-                        <OutlineButton isIcon iconName='pajamas:twitter' link="/" />
-                        <OutlineButton isIcon iconName='ri:linkedin-fill' link="/" />
-                        <OutlineButton isIcon iconName='mdi:github' link="/" />
-                        <OutlineButton isIcon iconName='mdi:telegram' link="/" />
+                        <OutlineButton isIcon iconName='mdi:youtube' link="https://www.youtube.com/channel/UC6fpw9ACFKDfyqK0aNSAW-Q" />
+                        <OutlineButton isIcon iconName='mdi:instagram' link="https://www.instagram.com/automated.trader/" />
+                        <OutlineButton isIcon iconName='pajamas:twitter' link="https://twitter.com/automatedapp" />
+                        <OutlineButton isIcon iconName='ic:baseline-discord' link="https://discord.com/invite/RU5t7ErGEE" />
                     </div>
                 </div>
             </div>
