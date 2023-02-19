@@ -5,6 +5,7 @@ import { FillButton, OutlineButton } from '../ButtonComponents';
 import ChatBox from '../Components/ChatBox';
 import Title from '../Components/Title';
 import Automatic from './Automatic';
+import ChoosePlan from './ChoosePlan';
 import Examplespage from './Examplespage';
 import TradingWays from './TradingWays';
 
@@ -23,7 +24,7 @@ export default function Homepage() {
         <div className='m-auto'>
             <div className='descSection m-auto relative max-w-8xl w-full pt-12 flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center gap-6 sm:gap-12 lg:gap-0'>
                 <div className='flex flex-col gap-8 w-2/5 min-w-full lg:min-w-[450px] xl:min-w-[550px]'>
-                    <Title title='SAY GOODBAY TO MANUAL TRADING' />
+                    <Title title='SAY GOODBYE TO MANUAL TRADING' />
                     <div>
                         <p className={`${inter.className} text-slate-300 text-sm sm:text-base lg:text-sm xl:text-base`}>
                             <span className='font-bold'>BETA COMING SOON Q4</span>
@@ -44,6 +45,7 @@ export default function Homepage() {
             <Examplespage />
             <Automatic />
             <TradingWays />
+            <ChoosePlan />
             <div>
                 <div className='max-w-[700px] m-auto'>
                 <div className={`${kanit.className} mb-10 text-bold text-4xl md:text-5xl text-center text-purple-600`}>

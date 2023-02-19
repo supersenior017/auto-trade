@@ -149,6 +149,18 @@ a {
   height: calc(100vh - 10rem);
 }
 
+.membership {
+  box-shadow: 0 0 10px #ebe5e563;
+}
+
+.detail_hide {
+  display: none;
+}
+
+.detail_show {
+  display: block;
+}
+
 @media screen and (max-width: 1024px) {
   .descSection {
     height: 100%;
