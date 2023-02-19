@@ -20,8 +20,8 @@ export interface ChatContentTypes {
 export default function Homepage() {
 
     return (
-        <div>
-            <div className='descSection relative max-w-8xl w-full pt-12 flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center gap-6 sm:gap-12 lg:gap-0'>
+        <div className='m-auto'>
+            <div className='descSection m-auto relative max-w-8xl w-full pt-12 flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center gap-6 sm:gap-12 lg:gap-0'>
                 <div className='flex flex-col gap-8 w-2/5 min-w-full lg:min-w-[450px] xl:min-w-[550px]'>
                     <Title title='SAY GOODBAY TO MANUAL TRADING' />
                     <div>
