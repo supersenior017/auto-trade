@@ -19,7 +19,7 @@ export default function ChoosePlan
                 <div className={`${kanit.className} mb-10 text-bold text-4xl md:text-5xl text-center text-purple-600`}>Choose Your Plan</div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8'>
                     {Memberships.map((membership) => (
-                        <div className='membership items-center bg-transparent backdrop-blur-sm py-10 px-6 text-center rounded-lg hover:scale-105 ease-in duration-300' onMouseEnter={() => {setIsShown(true); setSelect(membership.id)}}
+                        <div className='membership items-center bg-transparent backdrop-blur-sm py-10 px-6 text-center rounded-lg hover:scale-105 ease-in duration-300' key={membership.id} onMouseEnter={() => {setIsShown(true); setSelect(membership.id)}}
                             onMouseLeave={() => setIsShown(false)}>
                             <div className='text-slate-300 flex flex-col justify-between h-full'>
                                 <div className='mb-2'>
@@ -36,7 +36,7 @@ export default function ChoosePlan
                                 {/* {isShown && isSelect === membership.id && ( */}
                                     <div className='scale-105 ease-in duration-300 ml-6 my-6'>
                                         {membership.list.map((item: any) => (
-                                            <div className='text-left flex my-2'>
+                                            <div className='text-left flex my-2' key={item.id}>
                                                 <div className='mr-2'><Icon icon={item.icon} fontSize={20} />
                                                 </div>
                                                 <div>{item.desc}</div>
