@@ -7,7 +7,7 @@ const kanit = Kanit({ subsets: ['latin'], weight: '700' })
 export default function Automatic() {
     return (
         <div className='m-auto'>
-            <div className={`${kanit.className} mb-10 text-bold text-4xl md:text-5xl text-center text-purple-600`}>
+            <div className={`${kanit.className} mb-10 text-bold text-4xl md:text-5xl text-center text-blue-500`}>
                 <p>Automate ALL your Trades...</p>
                 <p>Even the Manual Ones!</p>
             </div>

@@ -10,7 +10,7 @@ export default function TradingWays() {
     return (
         <>
             <div className='relative max-w-8xl w-full my-40 pt-12'>
-                <div className={`${kanit.className} mb-10 text-bold text-4xl md:text-5xl text-center text-purple-600`}>4 Ways to make money with Automated Trader</div>
+                <div className={`${kanit.className} mb-10 text-bold text-4xl md:text-5xl text-center text-blue-500`}>4 Ways to make money with Automated Trader</div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 text-slate-300'>
                     {TradeWays.map((example) => (
                         <div className='flex justify-center items-center' key={example.id}>

@@ -16,7 +16,7 @@ export default function ChoosePlan
     return (
         <>
             <div className='relative max-w-8xl w-full my-40 m-auto'>
-                <div className={`${kanit.className} mb-10 text-bold text-4xl md:text-5xl text-center text-purple-600`}>Choose Your Plan</div>
+                <div className={`${kanit.className} mb-10 text-bold text-4xl md:text-5xl text-center text-blue-500`}>Choose Your Plan</div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8'>
                     {Memberships.map((membership) => (
                         <div className='membership items-center bg-transparent backdrop-blur-sm py-10 px-6 text-center rounded-lg hover:scale-105 ease-in duration-300' key={membership.id} onMouseEnter={() => {setIsShown(true); setSelect(membership.id)}}
@@ -47,7 +47,7 @@ export default function ChoosePlan
                                 <div>
                                     {/* {!isShown && <span>Detail</span>} */}
                                     <button className={`${inter.className} mt-4 relative w-full px-4 py-2 sm:px-5 sm:py-2.5 lg:px-4 lg:py-2 xl:px-5 xl:py-2.5 relative rounded group font-medium text-white font-medium inline-block`}>
-                                        <span className="absolute inset-0 h-full transition duration-200 ease-out rounded bg-gradient-to-br to-purple-600 from-blue-500">
+                                        <span className="absolute inset-0 h-full transition duration-200 ease-out rounded bg-gradient-to-br to-blue-300 from-blue-500">
                                         </span>
                                         <span className="relative text-sm sm:text-base lg:text-sm xl:text-base">
                                             Select {membership.title}

@@ -26,15 +26,15 @@ export default function Homepage() {
                 <div className='flex flex-col gap-8 w-2/5 min-w-full lg:min-w-[450px] xl:min-w-[550px]'>
                     <Title title='SAY GOODBYE TO MANUAL TRADING' />
                     <div>
-                        <p className={`${inter.className} text-slate-300 text-sm sm:text-base lg:text-sm xl:text-base`}>
+                        {/* <p className={`${inter.className} text-slate-300 text-sm sm:text-base lg:text-sm xl:text-base`}>
                             <span className='font-bold'>BETA COMING SOON Q4</span>
-                        </p>
+                        </p> */}
                         <p className={`${inter.className} text-slate-300 text-sm sm:text-base lg:text-sm xl:text-base`}>
-                            <span className='font-bold'>The most innovative trading Dashboard!</span>
+                            <span className='font-bold'>Use our innovative dashboard to stay up to date, track, compare and analyze your trading activity like never before. Control your risk per trade like a PRO!</span>
                         </p>
-                        <p className={`${inter.className} text-slate-300 text-sm sm:text-base lg:text-sm xl:text-base`}>
+                        {/* <p className={`${inter.className} text-slate-300 text-sm sm:text-base lg:text-sm xl:text-base`}>
                             <span className='font-bold'>PRE-REGISTRATION IS NOW AVAILABLE.</span>
-                        </p>
+                        </p> */}
                     </div>
                     <FillButton name='Join Waitlist' link="/" />
                 </div>
@@ -48,7 +48,7 @@ export default function Homepage() {
             <ChoosePlan />
             <div>
                 <div className='max-w-[700px] m-auto'>
-                <div className={`${kanit.className} mb-10 text-bold text-4xl md:text-5xl text-center text-purple-600`}>
+                <div className={`${kanit.className} mb-10 text-bold text-4xl md:text-5xl text-center text-blue-500`}>
                     Contact Us
                 </div>
                     <div className='text-slate-300 text-sm sm:text-base lg:text-sm xl:text-base my-8'>
