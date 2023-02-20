@@ -161,6 +161,14 @@ a {
   display: block;
 }
 
+.tab-wrap {
+  background: #00000061;
+}
+
+.tab-item {
+  background-color: #e5e7eb45;
+}
+
 @media screen and (max-width: 1024px) {
   .descSection {
     height: 100%;

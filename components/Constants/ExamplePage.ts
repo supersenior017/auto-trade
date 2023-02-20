@@ -17,6 +17,7 @@ interface TradeWaysTypes {
 
 interface MembershipTypes {
     id: number;
+    period: string;
     title: string;
     desc: string;
     price: number;
@@ -85,6 +86,7 @@ export const Memberships: MembershipTypes[] = [
     {
         id: 1,
         title: 'BASIC PLAN',
+        period: 'monthly',
         desc: 'Perfect for Newbie Traders',
         price: 29,
         list: [
@@ -117,6 +119,7 @@ export const Memberships: MembershipTypes[] = [
     {
         id: 2,
         title: 'STANDARD PLAN',
+        period: 'monthly',
         desc: 'Perfect for Testing Stategies',
         price: 49,
         list: [
@@ -149,6 +152,7 @@ export const Memberships: MembershipTypes[] = [
     {
         id: 3,
         title: 'PROFESSIONAL PLAN',
+        period: 'monthly',
         desc: 'Connect multiple live & demo accounts.',
         price: 99,
         list: [
@@ -185,6 +189,7 @@ export const Memberships: MembershipTypes[] = [
     {
         id: 4,
         title: 'PREMIUM PLAN',
+        period: 'monthly',
         desc: 'Public Profiles',
         price: 159,
         list: [
@@ -224,6 +229,197 @@ export const Memberships: MembershipTypes[] = [
                 icon: 'mdi:jewel',
                 desc: 'More Features for this package coming soon! First Access to Everything.'
             },  
+        ]
+    }
+]
+
+export const AnnualMemberships: MembershipTypes[] = [
+    {
+        id: 1,
+        period: 'yearly',
+        title: 'BASIC PLAN',
+        desc: 'Perfect for Newbie Traders',
+        price: 243,
+        list: [
+            {
+                icon: 'icon-park-outline:robot-one',
+                desc: 'Automate Tradingview'
+            },
+            {
+                icon: 'mi:computer',
+                desc: '1 Account'
+            },  
+            {
+                icon: 'mingcute:external-link-line',
+                desc: '1 Webhook'
+            },  
+            {
+                icon: 'ph:chart-line-up-duotone',
+                desc: 'MT4 & MT5 EA'
+            },  
+            {
+                icon: 'cib:telegram-plane',
+                desc: 'Telegram Notifications'
+            },  
+            {
+                icon: 'simple-line-icons:earphones-alt',
+                desc: '24/7 Support'
+            },  
+        ]
+    },
+    {
+        id: 2,
+        period: 'yearly',
+        title: 'STANDARD PLAN',
+        desc: 'Perfect for Testing Stategies',
+        price: 411,
+        list: [
+            {
+                icon: 'icon-park-outline:robot-one',
+                desc: 'Automate Tradingview'
+            },
+            {
+                icon: 'mi:computer',
+                desc: 'Up to 3 Accounts'
+            },  
+            {
+                icon: 'mingcute:external-link-line',
+                desc: 'Up to 3 Webhooks'
+            },  
+            {
+                icon: 'ph:chart-line-up-duotone',
+                desc: 'MT4 & MT5 EA'
+            },  
+            {
+                icon: 'cib:telegram-plane',
+                desc: 'Telegram Notifications'
+            },  
+            {
+                icon: 'simple-line-icons:earphones-alt',
+                desc: '24/7 Support'
+            },  
+        ]
+    },
+    {
+        id: 3,
+        title: 'PROFESSIONAL PLAN',
+        period: 'yearly',
+        desc: 'Connect multiple live & demo accounts.',
+        price: 712,
+        list: [
+            {
+                icon: 'icon-park-outline:robot-one',
+                desc: 'Automate Tradingview'
+            },
+            {
+                icon: 'mi:computer',
+                desc: 'Up to 5 Accounts'
+            },  
+            {
+                icon: 'mingcute:external-link-line',
+                desc: 'Up to 5 Webhooks'
+            },  
+            {
+                icon: 'ph:chart-line-up-duotone',
+                desc: 'MT4 & MT5 EA'
+            },  
+            {
+                icon: 'cib:telegram-plane',
+                desc: 'Telegram Notifications'
+            },  
+            {
+                icon: 'ri:discord-fill',
+                desc: 'Discord Notifications'
+            },  
+            {
+                icon: 'simple-line-icons:earphones-alt',
+                desc: '24/7 Support'
+            },  
+        ]
+    },
+    {
+        id: 4,
+        title: 'PREMIUM PLAN',
+        period: 'yearly',
+        desc: 'Public Profiles',
+        price: 954,
+        list: [
+            {
+                icon: 'icon-park-outline:robot-one',
+                desc: 'Automate Tradingview'
+            },
+            {
+                icon: 'mi:computer',
+                desc: 'Unlimited Accounts'
+            },  
+            {
+                icon: 'mingcute:external-link-line',
+                desc: 'Unlimited Webhooks'
+            },  
+            {
+                icon: 'ph:chart-line-up-duotone',
+                desc: 'MT4 & MT5 EA'
+            },  
+            {
+                icon: 'cib:telegram-plane',
+                desc: 'Telegram Notifications'
+            },  
+            {
+                icon: 'ri:discord-fill',
+                desc: 'Discord Notifications'
+            },  
+            {
+                icon: 'simple-line-icons:earphones-alt',
+                desc: '24/7 Support'
+            },  
+            {
+                icon: 'ic:twotone-device-hub',
+                desc: 'Share Alerts'
+            },  
+            {
+                icon: 'mdi:jewel',
+                desc: 'More Features for this package coming soon! First Access to Everything.'
+            },  
+        ]
+    }
+]
+
+export const LifetimeMembership: MembershipTypes[] = [
+    {
+        id: 1,
+        title: 'BASIC PLAN',
+        period: 'life',
+        desc: 'Perfect for Newbie Traders',
+        price: 2500,
+        list: [
+            {
+                icon: 'icon-park-outline:robot-one',
+                desc: 'Automate Tradingview'
+            },
+            {
+                icon: 'mi:computer',
+                desc: 'Up to 100 Accounts'
+            },  
+            {
+                icon: 'mingcute:external-link-line',
+                desc: 'Up to 100 1 Webhooks'
+            },  
+            {
+                icon: 'ph:chart-line-up-duotone',
+                desc: 'MT4 & MT5 EA'
+            },  
+            {
+                icon: 'cib:telegram-plane',
+                desc: 'Telegram Notifications'
+            },  
+            {
+                icon: 'simple-line-icons:earphones-alt',
+                desc: '24/7 Support'
+            },
+            {
+                icon: 'ic:twotone-device-hub',
+                desc: 'Share Alerts'
+            },    
         ]
     }
 ]
